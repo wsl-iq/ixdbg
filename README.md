@@ -12,7 +12,6 @@
 ### ![version](https://img.shields.io/badge/version_:_1.0.0-0056D2?style=for-the-badge&logo=links&logoColor=white)
 
 ---
----
 
 `This program was developed by Muhammad Al-Baqir`
 
