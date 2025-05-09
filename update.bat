@@ -9,6 +9,7 @@ curl -O https://raw.githubusercontent.com/wsl-iq/ixdbg/main/ixdbg.py
 curl -O https://raw.githubusercontent.com/wsl-iq/ixdbg/main/setup.bat
 curl -O https://raw.githubusercontent.com/wsl-iq/ixdbg/main/uninstall.py
 curl -O https://raw.githubusercontent.com/wsl-iq/ixdbg/main/update.bat
+curl -O https://raw.githubusercontent.com/wsl-iq/ixdbg/main/icon.png
 
 echo Finish Update Files 
 
