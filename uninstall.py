@@ -28,6 +28,7 @@ def uninstall():
 
             if uninstall_choice == '1':
                 items_to_remove = [
+                    'icn.png'
                     'LICENSE'
                     'README.md'
                     'setup.bat',
