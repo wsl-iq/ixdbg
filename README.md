@@ -31,6 +31,14 @@
 
 ---
 
+## Requirements 
+
+- `Click here for Download application python`
+
+- [![Download Python](https://img.shields.io/badge/Download-Python-blue?logo=python&logoColor=white)](https://www.python.org/ftp/python/3.11.0/python-3.11.0rc2-amd64.exe)
+
+---
+
 - ### **How Installation?**
 
 ```
