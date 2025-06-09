@@ -22,19 +22,19 @@ Running = "\033[94;1m" + '[Running]' + "\033[95;1m"
 def uninstall():
     try:
         while True:
-            print(f' {G}[1] {B}Uninstall Manager PC{W}\n',f'{G}[2] {B}Exit{W}\n')
-            
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print(f' {G}[1] {B}Uninstall ixdbg{W}\n', f'{G}[2] {B}Exit{W}\n')
             uninstall_choice = input(f'{Enter} Enter your choice: {Y}')
 
             if uninstall_choice == '1':
                 items_to_remove = [
-                    'icn.png'
-                    'LICENSE'
-                    'README.md'
+                    'app'
+                    'LICENSE', 
+                    'README.md',
                     'setup.bat',
-                    'update.bat' 
-                    'versoin.txt'
-                    'ixdbg.py'
+                    'update.bat',
+                    'version.txt',
+                    'run.vbs',
                 ]
 
                 for item in items_to_remove:
@@ -47,15 +47,15 @@ def uninstall():
                             print(f'{INFO} Folder removed: {item}')
                     else:
                         print(f'{please} Not found: {item}{W}')
-                
+
+                script_path = os.path.abspath(sys.argv[0])
                 with open("cleanup.bat", "w") as batch_file:
-                    batch_file.write(f"@echo off\n")
-                    batch_file.write(f"timeout /t 2 >nul\n")
-                    batch_file.write(f"del \"{__file__}\"\n")
-                    batch_file.write(f"del cleanup.bat\n")
-                
-                print(f"{Running} Uninstallation complete Closing...{W}")
-                
+                    batch_file.write("@echo off\n")
+                    batch_file.write("timeout /t 2 >nul\n")
+                    batch_file.write(f'del "{script_path}"\n')
+                    batch_file.write("del cleanup.bat\n")
+
+                print(f"{Running} Uninstallation complete. Closing...{W}")
                 os.system("start cleanup.bat")
                 sys.exit()
 
@@ -64,7 +64,7 @@ def uninstall():
                 sys.exit()
 
             else:
-                print(f"{ERROR} choice Please try again !{W}")
+                print(f"{ERROR} Invalid choice. Please try again!{W}")
     except KeyboardInterrupt:
         print(f"\n{sign} Process interrupted by user.{W}")
         sys.exit()

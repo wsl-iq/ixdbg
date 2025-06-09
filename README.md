@@ -1,18 +1,17 @@
+
+
 ### **Information X-ray Debugging**
 
----
-
 <span style="background-color:white; color:white; padding:5px 100px; border-radius:10px; font-weight:bold; display:inline-flex; align-items:center;">
-  <img src="ixdbg.png" width="250" height="250" style="margin-right:5px;">
+  <img src="icon.png" width="250" height="250" style="margin-right:5px;">
 </span>
-
----
 
 ### ![Connect](https://img.shields.io/badge/IXDBG-For_Windows-0056D2?style=for-the-badge&logo=windows&logoColor=white)
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Windows_logo_-_2012_%28dark_blue%29.svg/1200px-Windows_logo_-_2012_%28dark_blue%29.svg.png" alt="Windows Logo" width="50" height="50">
 
-### ![version](https://img.shields.io/badge/version_:_1.0.0-0056D2?style=for-the-badge&logo=links&logoColor=white)
+### ![version](https://img.shields.io/badge/version_:_1.2.0-0056D2?style=for-the-badge&logo=links&logoColor=white)
 
+---
 ---
 
 `This program was developed by Muhammad Al-Baqir`
@@ -30,14 +29,6 @@
 - **5. Suspicious Keyword Detection: Searches for suspicious** `keywords` **within file contents such as** `powershell` **or** `cmd.exe` **that may indicate malicious behavior Malicious**
 
 - **6. Save data to** `(*.JSON)` **All analyses can be saved to a JSON file for later review**
-
----
-
-## Requirements 
-
-- `Click here for Download application python`
-
-- [![Download Python](https://img.shields.io/badge/Download-Python-blue?logo=python&logoColor=white)](https://www.python.org/ftp/python/3.11.0/python-3.11.0rc2-amd64.exe)
 
 ---
 
