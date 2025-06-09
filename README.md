@@ -34,16 +34,17 @@
 
 ```
 $ setup.bat
-$ python ixdbg.py
 ```
 
 ---
 
-- ### **How Update?**
-
-- `$ update.bat`
+- ### **Run**
+```
+$ run.vbs
+```
 
 ---
+
 
 - ### **How Uninstallation?**
 
