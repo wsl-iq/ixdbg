@@ -1,9 +1,7 @@
-
-
 ### **Information X-ray Debugging**
 
 <span style="background-color:white; color:white; padding:5px 100px; border-radius:10px; font-weight:bold; display:inline-flex; align-items:center;">
-  <img src="icon.png" width="250" height="250" style="margin-right:5px;">
+  <img src="ixdbg.png" width="250" height="250" style="margin-right:5px;">
 </span>
 
 ### ![Connect](https://img.shields.io/badge/IXDBG-For_Windows-0056D2?style=for-the-badge&logo=windows&logoColor=white)
